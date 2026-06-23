@@ -1,177 +1,46 @@
-/* Global */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #0f172a;
-  color: white;
-  font-family: "Poppins", sans-serif;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* Navbar */
-
-.navbar {
+.btn-group {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 25px 8%;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 
-.navbar h2 {
-  color: #38bdf8;
-}
-
-.links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: 500;
-}
-
-.links a:hover {
-  color: #38bdf8;
-}
-
-/* Hero Section */
-
-.hero {
-  min-height: 90vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 80px 8%;
-  gap: 50px;
-}
-
-.hero-content {
-  flex: 1;
-}
-
-.hero-content h1 {
-  font-size: 4rem;
-  color: #38bdf8;
-}
-
-.hero-content h2 {
-  margin: 15px 0;
-}
-
-.hero-content p {
-  line-height: 1.8;
-  color: #d1d5db;
-}
-
-.hero-image img {
-  width: 400px;
-  height: 500px;
-  border-radius: 25px;
-  object-fit: cover;
-  box-shadow: 0 20px 50px rgba(56, 189, 248, 0.3);
-}
-
-/* Button */
-
-.custom-btn {
-  margin-top: 25px;
-  padding: 14px 35px;
-  border: none;
+.contact-btn,
+.view-btn,
+.download-btn {
+  padding: 14px 20px;
   border-radius: 10px;
-  background: #38bdf8;
-  color: white;
-  cursor: pointer;
-  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
   transition: 0.3s;
 }
 
-.custom-btn:hover {
-  transform: translateY(-3px);
-}
-
-/* About */
-
-.about {
-  padding: 100px 8%;
-}
-
-.about h1 {
-  color: #38bdf8;
-  margin-bottom: 20px;
-}
-
-.about p {
-  margin-bottom: 20px;
-  line-height: 1.9;
-  color: #d1d5db;
-}
-
-/* Experience */
-
-.experience {
-  padding: 100px 8%;
-}
-
-.experience h1 {
-  color: #38bdf8;
-  margin-bottom: 20px;
-}
-
-.experience p {
-  margin-bottom: 30px;
-  line-height: 1.8;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.skill-card {
-  background: #1e293b;
-  padding: 15px 25px;
+/* Contact Button */
+.contact-btn {
+  padding: 14px 20px;
   border-radius: 10px;
-  border: 1px solid #38bdf8;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  background: #38bdf8;
+  color: white;
 }
 
-/* Contact */
-
-.contact {
-  padding: 100px 8%;
+/* View Resume Button */
+.view-btn {
+  background: #8b5cf6;
+  color: white;
 }
 
-.contact h1 {
-  color: #38bdf8;
-  margin-bottom: 25px;
+/* Download Resume Button */
+.download-btn {
+  background: #22c55e;
+  color: white;
 }
 
-.contact-card {
-  background: #1e293b;
-  padding: 30px;
-  border-radius: 20px;
-}
-
-.contact-card p {
-  margin-top: 15px;
-}
-
-/* Footer */
-
-.footer {
-  text-align: center;
-  padding: 25px;
-  background: #020617;
-  margin-top: 50px;
+.contact-btn:hover,
+.view-btn:hover,
+.download-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }

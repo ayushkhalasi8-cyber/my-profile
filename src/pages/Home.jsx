@@ -11,18 +11,33 @@ function Home() {
         <p>
           Welcome to my professional portfolio. I specialize in creating
           modern, responsive, and user-friendly web applications using React,
-          JavaScript, HTML, and CSS. My goal is to build digital experiences
-          that are visually stunning, highly functional, and optimized for
-          performance.
+          JavaScript, HTML, and CSS.
         </p>
 
-        <a href="#contact" className="btn">
-          Contact Me
-        </a>
+        <div className="btn-group">
+          <a href="#contact" className="btn">
+            Contact Me
+          </a>
+           <a
+            href="/resume.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="view-btn"
+          >
+            View Resume
+          </a>
+          <a
+            href="/resume.pdf"
+            download
+            className="download-btn"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
 
       <div className="hero-image">
-        <img src={profile} alt="Portfolio" />
+        <img src={profile} alt="Khalasi Ayush" />
       </div>
     </section>
   );
