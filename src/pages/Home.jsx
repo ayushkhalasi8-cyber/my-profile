@@ -19,7 +19,7 @@ function Home() {
             👋 Welcome to My Portfolio
           </span>
 
-          <h1 className="text-5xl md:text-7xl font-extrabold text-white leading-tight">
+          <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
             Hi, I'm
             <br />
             <span className="text-cyan-400">
