@@ -13,7 +13,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { path: "/", name: "Home", icon: <FaHome /> },
+    { path: "/home", name: "Home", icon: <FaHome /> },
     { path: "/about", name: "About", icon: <FaUser /> },
     { path: "/experience", name: "Experience", icon: <FaBriefcase /> },
     { path: "/contact", name: "Contact", icon: <FaPhoneAlt /> },
